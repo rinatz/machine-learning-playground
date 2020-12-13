@@ -1,0 +1,5 @@
+[requires]
+protobuf/3.12.4
+
+[imports]
+bin, * -> bin
