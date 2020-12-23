@@ -1,6 +1,6 @@
 # tensorflow-models-playground
 
-このリポジトリは [TensorFlow Model Garden] の使い方について日本語でまとめたドキュメントです。
+このリポジトリは [TensorFlow Model Garden] を試しに使ってみたときの記録を残したものです。
 
 [TensorFlow Model Garden]: https://github.com/tensorflow/models
 
