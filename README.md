@@ -1,4 +1,4 @@
-# tensorflow-models-docs-jp
+# tensorflow-models-playground
 
 このリポジトリは [TensorFlow Model Garden] の使い方について日本語でまとめたドキュメントです。
 
