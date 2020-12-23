@@ -1,66 +1,24 @@
-# Playground for TensorFlow Model Garden
+# tensorflow-models-docs-jp
 
-This repository is a playground for [TensorFlow Model Garden]
+このリポジトリは [TensorFlow Model Garden] の使い方について日本語でまとめたドキュメントです。
 
 [TensorFlow Model Garden]: https://github.com/tensorflow/models
 
-## Requirements
+## 必要なもの
 
 - Python >=3.7
-- Poetry
-- Makefile
+- Visual Studio Code
 
-## Install
-
-```shell
-$ make install
-```
-
-## Usage
+## インストール
 
 ```shell
-$ poetry run python detect.py IMAGE [--model MODEL_NAME]
+$ git clone --submodule --init https://github.com/rinatz/tensorflow-models-docs-jp
+$ python3 -m venv .venv
+$ . .venv/bin/activate
+(.venv) $ pip install -U pip
+(.venv) $ pip install -r requirements.txt
 ```
 
-You can pass below model names to `--model`.
+VSCode で下記のどれかを開いてください。
 
-- `centernet_hg104_512x512_coco17_tpu-8`
-- `centernet_hg104_512x512_kpts_coco17_tpu-32`
-- `centernet_hg104_1024x1024_coco17_tpu-32`
-- `centernet_hg104_1024x1024_kpts_coco17_tpu-32`
-- `centernet_resnet50_v1_fpn_512x512_coco17_tpu-8`
-- `centernet_resnet50_v1_fpn_512x512_kpts_coco17_tpu-8`
-- `centernet_resnet101_v1_fpn_512x512_coco17_tpu-8`
-- `centernet_resnet50_v2_512x512_coco17_tpu-8`
-- `centernet_resnet50_v2_512x512_kpts_coco17_tpu-8`
-- `efficientdet_d0_coco17_tpu-32`
-- `efficientdet_d1_coco17_tpu-32`
-- `efficientdet_d2_coco17_tpu-32`
-- `efficientdet_d3_coco17_tpu-32`
-- `efficientdet_d4_coco17_tpu-32`
-- `efficientdet_d5_coco17_tpu-32`
-- `efficientdet_d6_coco17_tpu-32`
-- `efficientdet_d7_coco17_tpu-32`
-- `ssd_mobilenet_v2_320x320_coco17_tpu-8`
-- `ssd_mobilenet_v1_fpn_640x640_coco17_tpu-8`
-- `ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8`
-- `ssd_mobilenet_v2_fpnlite_640x640_coco17_tpu-8`
-- `ssd_resnet50_v1_fpn_640x640_coco17_tpu-8`
-- `ssd_resnet50_v1_fpn_1024x1024_coco17_tpu-8`
-- `ssd_resnet101_v1_fpn_640x640_coco17_tpu-8`
-- `ssd_resnet101_v1_fpn_1024x1024_coco17_tpu-8`
-- `ssd_resnet152_v1_fpn_640x640_coco17_tpu-8`
-- `ssd_resnet152_v1_fpn_1024x1024_coco17_tpu-8`
-- `faster_rcnn_resnet50_v1_640x640_coco17_tpu-8`
-- `faster_rcnn_resnet50_v1_1024x1024_coco17_tpu-8`
-- `faster_rcnn_resnet50_v1_800x1333_coco17_gpu-8`
-- `faster_rcnn_resnet101_v1_640x640_coco17_tpu-8`
-- `faster_rcnn_resnet101_v1_1024x1024_coco17_tpu-8`
-- `faster_rcnn_resnet101_v1_800x1333_coco17_gpu-8`
-- `faster_rcnn_resnet152_v1_640x640_coco17_tpu-8`
-- `faster_rcnn_resnet152_v1_1024x1024_coco17_tpu-8`
-- `faster_rcnn_resnet152_v1_800x1333_coco17_gpu-8`
-- `faster_rcnn_inception_resnet_v2_640x640_coco17_tpu-8`
-- `faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8`
-- `mask_rcnn_inception_resnet_v2_1024x1024_coco17_gpu-8`
-- `extremenet`
+- `object_detection.ipynb`
