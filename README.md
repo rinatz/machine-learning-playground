@@ -14,7 +14,7 @@
 ```shell
 $ git clone --submodule --init https://github.com/rinatz/tensorflow-models-docs-jp
 $ python3 -m venv .venv
-$ . .venv/bin/activate
+$ source .venv/bin/activate
 (.venv) $ pip install -U pip
 (.venv) $ pip install -r requirements.txt
 ```
