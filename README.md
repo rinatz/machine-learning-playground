@@ -12,7 +12,7 @@
 ## インストール
 
 ```shell
-$ git clone --submodule --init https://github.com/rinatz/tensorflow-models-docs-jp
+$ git clone --recursive https://github.com/rinatz/tensorflow-models-docs-jp
 $ python3 -m venv .venv
 $ source .venv/bin/activate
 (.venv) $ pip install -U pip
