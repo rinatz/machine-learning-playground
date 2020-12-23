@@ -21,4 +21,4 @@ $ source .venv/bin/activate
 
 VSCode で下記のどれかを開いてください。
 
-- `object_detection.ipynb`
+- [object_detection.ipynb](object_detection.ipynb)
