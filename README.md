@@ -1,8 +1,11 @@
-# tensorflow-models-playground
+# Tensorflow Playground
 
-このリポジトリは [TensorFlow Model Garden] を試しに使ってみたときの記録を残したものです。
+TensorFlow で各種学習モデルの動作確認を行うためのリポジトリです。
 
-[TensorFlow Model Garden]: https://github.com/tensorflow/models
+## 使ってみたモデル
+
+- [TensorFlow Model Garden](https://github.com/tensorflow/models)
+- [tensorflow-yolov4-tflite](https://github.com/hunglc007/tensorflow-yolov4-tflite)
 
 ## 必要なもの
 
@@ -22,3 +25,4 @@ $ source .venv/bin/activate
 VSCode で下記のどれかを開いてください。
 
 - [object_detection.ipynb](object_detection.ipynb)
+- [yolo.ipnynb](yolo.ipynb)
