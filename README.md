@@ -1,6 +1,6 @@
-# Tensorflow Playground
+# Machine Learning Playground
 
-TensorFlow で各種学習モデルの動作確認を行うためのリポジトリです。
+機械学習で遊んでみた結果を残したリポジトリです。
 
 ## 使ってみたモデル
 
@@ -24,5 +24,5 @@ $ source .venv/bin/activate
 
 VSCode で下記のどれかを開いてください。
 
-- [object_detection.ipynb](object_detection.ipynb)
-- [yolo.ipnynb](yolo.ipynb)
+- [TensorFlow Model Garden で物体検出](object_detection.ipynb)
+- [YOLO で物体検出](yolo.ipynb)
