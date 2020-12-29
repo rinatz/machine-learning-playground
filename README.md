@@ -11,6 +11,7 @@
 
 - Python >=3.7
 - Visual Studio Code
+- Python extension for Visual Studio Code
 
 ## インストール
 
