@@ -16,7 +16,7 @@
 ## インストール
 
 ```shell
-$ git clone --recursive https://github.com/rinatz/machine-learning-playground.git
+$ git clone https://github.com/rinatz/machine-learning-playground.git
 $ python3 -m venv .venv
 $ source .venv/bin/activate
 (.venv) $ pip install -U pip
