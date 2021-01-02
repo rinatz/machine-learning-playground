@@ -1,3 +1,7 @@
 certifi
 conan
 ipykernel
+matplotlib
+Pillow
+tensorflow
+tensorflow_hub
