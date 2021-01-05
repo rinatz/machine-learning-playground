@@ -1,7 +1,9 @@
 certifi
 conan
 ipykernel
+labelImg
 matplotlib
 Pillow
 tensorflow
 tensorflow_hub
+yolov4

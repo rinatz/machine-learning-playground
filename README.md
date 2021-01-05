@@ -27,3 +27,4 @@ VSCode で下記のどれかを開いてください。
 
 - [TensorFlow Model Garden で物体検出](object_detection.ipynb)
 - [YOLO で物体検出](yolo.ipynb)
+- [YOLO で転移学習](transfer_learning.ipynb)
