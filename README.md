@@ -6,6 +6,7 @@
 
 - [TensorFlow Model Garden](https://github.com/tensorflow/models)
 - [tensorflow-yolov4-tflite](https://github.com/hunglc007/tensorflow-yolov4-tflite)
+- [tensorflow-yolov4（tensorflow-yolov4-tflite の fork）](https://github.com/hhk7734/tensorflow-yolov4)
 
 ## 必要なもの
 
